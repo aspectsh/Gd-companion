@@ -1,0 +1,11 @@
+{
+  "geode": "v4.0.0-beta",
+  "gd": {
+    "android": "*"
+  },
+  "id": "my.gd-companion",
+  "name": "GD Companion Mod",
+  "version": "v0.2.0",
+  "developer": "aspectsh",
+  "description": "A friendly companion that offers tips and motivation."
+}
