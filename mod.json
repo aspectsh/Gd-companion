@@ -1,5 +1,5 @@
 {
-  "geode": "v4.0.0-beta",
+  "geode":"3.0.0",
   "gd": {
     "android": "*"
   },
