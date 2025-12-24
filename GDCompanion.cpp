@@ -46,4 +46,5 @@ class $modify(MenuLayer) {
             "Close"
         )->show();
     }
-}
+};
+
