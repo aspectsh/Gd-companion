@@ -26,10 +26,10 @@ class $modify(MenuLayer) {
 
     void onOpenCompanion(CCObject*) {
         std::vector<std::string> messages = {
-            "Keep going!",
-            "You got this!",
-            "Persistence is key!",
-            "Try again!"
+            "Hey! Don't let that wave part get you down. Keep going!",
+            "Geometry Dash is all about persistence. You got this!",
+            "Take a deep breath and give it another try!",
+            "Small goals lead to big victories. Go!"
         };
 
         std::random_device rd;
@@ -37,9 +37,10 @@ class $modify(MenuLayer) {
         std::uniform_int_distribution<> distrib(0, messages.size() - 1);
         
         FLAlertLayer::create(
-            "Companion",
+            "Companion Tip",
             messages[distrib(gen)],
-            "OK"
+            "Close"
         )->show();
     }
 };
+
